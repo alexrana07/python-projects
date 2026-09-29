@@ -3,31 +3,45 @@ import random
 score = 0
 
 while True:
-    # Ask the user to enter the maximum number
-    guess_number = input('guess the number')
+    # ask for the max number
+    max_number = input('Enter max number (q to quit): ')
 
-    # Check if the input contains only a valid number
-    if guess_number.lstrip('-').isdigit():
-        guess_number = int(guess_number)
+    # quit the game
+    if max_number == 'q':
+        print('Your final score is', score)
+        break
 
-        # Make sure the number is greater than 0
-        if guess_number <= 0:
-            print('select number greather than 0')
+    # check if its a number
+    if max_number.isdigit():
+        max_number = int(max_number)
+
+        # number must be more than 0
+        if max_number <= 0:
+            print('Number must be greater than 0')
             continue
 
-    # If the input is not a number
     else:
-        print('seleect number only')
+        print('Numbers only please')
         continue
 
-    # Generate a random number between 0 and the user's number
-    random_number = random.randrange(0, guess_number + 1)
+    # computer picks a secret number
+    random_number = random.randint(0, max_number)
 
-    # Increase the score after a valid number is entered
-    score += 1
+    # user guesses
+    user_guess = input('Guess the number between 0 and ' + str(max_number) + ': ')
 
-    # Display the generated random number
-    print(random_number)
+    if not user_guess.isdigit():
+        print('Numbers only please')
+        continue
 
-    # Display the current score
-    print('\n', score)
+    user_guess = int(user_guess)
+
+    # check the guess
+    if user_guess == random_number:
+        print('🎉 Correct! You got it')
+        score += 1
+    else:
+        print('❌ Wrong! The number was', random_number)
+
+    print('Score:', score)
+    print()
