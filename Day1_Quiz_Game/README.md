@@ -2,7 +2,7 @@
 
 A simple **command-line quiz game built with Python**.
 
-This is **Project 1 of my 33 Python Projects series**, where each project focuses on applying Python concepts through small, practical programs.
+This is **Project 1 of my 21 Python Projects series**, where each project focuses on applying Python concepts through small, practical programs.
 
 For this project, the main focus is **conditional statements (`if` and `else`)**.
 
