@@ -1,6 +1,6 @@
 # 🎯 Number Guessing Game
 
-**Day 2 of my 33-day Python project series.**
+**Day 2 of my 21-day Python project series.**
 
 A simple command-line game. You choose the biggest number you want to play with, the computer picks a secret number between 0 and that number, and you try to guess it. Every correct guess gives you one point.
 
