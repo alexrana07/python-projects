@@ -1,6 +1,6 @@
 # Text Adventure Game
 
-**Project 4 of 33**
+**Project 4 of 21**
 
 A simple text-based adventure game written in Python. You type your name, then make choices that decide whether you win or lose.
 
