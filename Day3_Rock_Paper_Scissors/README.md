@@ -1,6 +1,6 @@
 # Rock Paper Scissors
 
-**Day 3 of my 33 Days of Python Projects**
+**Day 3 of my 21 Days of Python Projects**
 
 A simple command-line Rock Paper Scissors game written in Python. You play against the computer, and the game keeps track of both scores.
 
