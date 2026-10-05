@@ -2,7 +2,7 @@
 
 A simple multiplayer dice game for the terminal, written in Python.
 
-> **Project 6 of 21** — part of my challenge to build 33 projects.
+> **Project 6 of 10** — part of my challenge to build 10 projects.
 
 ## How the game works
 
