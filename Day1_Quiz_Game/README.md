@@ -2,7 +2,7 @@
 
 A simple **command-line quiz game built with Python**.
 
-This is **Project 1 of my 33 Python Projects series**, where each project focuses on applying Python concepts through small, practical programs.
+This is **Project 1 of my 10 Python Projects series**, where each project focuses on applying Python concepts through small, practical programs.
 
 For this project, the main focus is **conditional statements (`if` and `else`)**.
 
@@ -110,11 +110,11 @@ python computer_quiz.py
 
 ## 🚀 Project Series
 
-This is **Project 1 of 33** in my Python Projects series.
+This is **Project 1 of 10** in my Python Projects series.
 
 The projects will gradually introduce more Python concepts and build towards more practical programs.
 
-**Progress:** `1 / 33` ✅
+**Progress:** `1 / 10` ✅
 
 ---
 
